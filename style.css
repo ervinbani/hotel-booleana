@@ -72,6 +72,10 @@ header .stella>img{
 .bg-blue{
   background-color: #ECFAFB;
 }
+
+table, table *{
+  border: 2px solid white;
+}
 @media screen and (max-width: 480px){
   background-color: #ECFAFB;{
   width: auto;
