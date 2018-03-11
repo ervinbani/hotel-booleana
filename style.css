@@ -5,7 +5,7 @@
 }
 
 header{
-  background-color: #ECFAFB;
+
   width: 100%;
   height: 200px;
 
@@ -41,15 +41,16 @@ header .stella>img{
 
   width: 100%;
   height: 100px;
+  text-align: center;
+  height: 100%;
+  padding-top: 0;
+  color: #00BBF0;
 
   }
   .container *{
     width: calc(100%/6);
-    height: 100%;
-    text-align: center;
     float: left;
-    padding-top: 0;
-    color: #00BBF0;
+
 
   }
 
@@ -66,6 +67,10 @@ header .stella>img{
   padding-top:48px;
   text-decoration: none ;
 
+}
+
+.bg-blue{
+  background-color: #ECFAFB;
 }
 @media screen and (max-width: 480px){
   background-color: #ECFAFB;{
