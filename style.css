@@ -19,6 +19,9 @@ header{
   float:left;
 
 }
+/* .folotogo img{
+  width: 100%;
+} */
 header .brand{
   width: 75%;
   height:200px;
@@ -26,7 +29,7 @@ header .brand{
   font-size: 60px;
   color: 	#81CBC8;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 5%;
   float:left;
 }
 header .stella>img{
@@ -58,7 +61,8 @@ header .stella>img{
     width: 100%;
     height: 600px;
     background-image: url(MILANO.JPG);
-    box-sizing: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 .menu-element *{
   width: 100%;
