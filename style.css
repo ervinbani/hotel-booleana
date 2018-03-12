@@ -40,9 +40,8 @@ header .stella>img{
 .container {
 
   width: 100%;
-  height: 100px;
+  height: auto;
   text-align: center;
-  height: 100%;
   padding-top: 0;
   color: #00BBF0;
 
@@ -72,10 +71,21 @@ header .stella>img{
 .bg-blue{
   background-color: #ECFAFB;
 }
+.tablewraper{
+  width:100%;
+  min-height: 100px;
 
-table, table *{
-  border: 2px solid white;
 }
+table, table *{
+  border: 2px solid lightblue;
+
+}
+.tablewraper>div{
+  width:calc(100%/3);
+  height: auto;
+  float: left;
+}
+
 @media screen and (max-width: 480px){
   background-color: #ECFAFB;{
   width: auto;
@@ -117,4 +127,7 @@ table, table *{
   width: 100%;
   height: 100%;
 }
+.tablewraper>div{
+  width:100%;
+  height: auto;
 }
