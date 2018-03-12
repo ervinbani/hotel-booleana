@@ -73,7 +73,7 @@ header .stella>img{
 }
 .tablewraper{
   width:100%;
-  min-height: 100px;
+  height: auto;
 
 }
 table, table *{
