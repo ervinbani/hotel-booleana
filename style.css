@@ -3,31 +3,26 @@
   margin: 0;
   padding: 0;
 }
-
 header{
-
   width: 100%;
   height: 200px;
-
 }
 .fotologo{
-  background-image: url(boolean.png);
-  background-size: cover;
-  border:10px solid #ECFAFB;
   width: 20%;
   height: 200px;
   float:left;
-
+  display: flex;
+  align-items: center;
 }
-/* .folotogo img{
+.fotologo img{
   width: 100%;
-} */
+}
 header .brand{
   width: 75%;
-  height:200px;
+  height: 200px;
   padding-top: 20px;
   font-size: 60px;
-  color: 	#81CBC8;
+  color: #81CBC8;
   text-align: center;
   margin-left: 5%;
   float:left;
@@ -35,57 +30,44 @@ header .brand{
 header .stella>img{
   width: 200px;
 }
-
 .clear{
   clear: both;
 }
-
 .contenitore {
-
   width: 100%;
   height: auto;
   text-align: center;
   padding-top: 0;
   color: #00BBF0;
-
-  }
-  .contenitore *{
-    width: calc(100%/6);
-    float: left;
-
-
-  }
-
-
-  .secondocontainer{
-    width: 100%;
-    height: 600px;
-    background-image: url(MILANO.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+}
+.contenitore *{
+  width: calc(100%/6);
+  float: left;
+}
+.secondocontainer{
+  width: 100%;
+  height: 600px;
+  background-image: url(MILANO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .menu-element *{
   width: 100%;
   height: 100px;
   padding-top:48px;
-  text-decoration: none ;
-
+  text-decoration: none;
 }
 footer .banner{
   width: 780px;
   height: 90px;
-  }
-  .banner>img{
-    margin-left: 25%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-
-  }
-
+}
+.banner>img{
+  margin-left: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .bg-blue{
   background-color: #ECFAFB;
-
 }
 .tablewraper{
   width:100%;
@@ -102,32 +84,38 @@ table, table *{
   float: left;
 }
 
+/* FORM PRENOTAZIONE */
+.form-cnt{
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 480px){
   background-color: #ECFAFB;{
   width: auto;
   height: 200px;
 }
-  .fotologo{
-    background-image: url(BOOLEAN.png);
-    background-size: cover;
-    border:10px solid #ECFAFB;
-    width: 100%;
-    height: 200px;
+.fotologo{
+  background-image: url(BOOLEAN.png);
+  background-size: cover;
+  border:10px solid #ECFAFB;
+  width: 100%;
+  height: 200px;
 
-  }
-  header .stella>img{
-    width: 200px;
-  }
-  header .brand{
-    width: 100%;
-    height:200px;
-    padding-top: 10px;
-    font-size: 30px;
-    color: 	#81CBC8;
-    text-align: center;
-    margin-left: 10px;
-    float:left;
-  }
+}
+header .stella>img{
+  width: 200px;
+}
+header .brand{
+  width: 100%;
+  height:200px;
+  padding-top: 10px;
+  font-size: 30px;
+  color: 	#81CBC8;
+  text-align: center;
+  margin-left: 10px;
+  float:left;
+}
 
 .contenitore *{
   background-color: #81CBC8;
@@ -159,9 +147,4 @@ table, table *{
   margin-top: 10px;
 
 }
-
-
-
-
-
 }
