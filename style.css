@@ -67,6 +67,13 @@ header .stella>img{
   text-decoration: none ;
 
 }
+footer .banner{
+  width: 780px;
+  height: 90px;
+  }
+  .banner>img{
+    margin-left: 25%;
+  }
 
 .bg-blue{
   background-color: #ECFAFB;
