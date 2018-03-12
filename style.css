@@ -37,7 +37,7 @@ header .stella>img{
   clear: both;
 }
 
-.container {
+.contenitore {
 
   width: 100%;
   height: auto;
@@ -46,7 +46,7 @@ header .stella>img{
   color: #00BBF0;
 
   }
-  .container *{
+  .contenitore *{
     width: calc(100%/6);
     float: left;
 
@@ -73,10 +73,15 @@ footer .banner{
   }
   .banner>img{
     margin-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
   }
 
 .bg-blue{
   background-color: #ECFAFB;
+
 }
 .tablewraper{
   width:100%;
@@ -120,7 +125,7 @@ table, table *{
     float:left;
   }
 
-.container *{
+.contenitore *{
   background-color: #81CBC8;
   border-bottom: 1px solid white;
   color: WHITE;
@@ -137,4 +142,22 @@ table, table *{
 .tablewraper>div{
   width:100%;
   height: auto;
+}
+
+.banner>img{
+  width: 480px;
+  margin-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container *{
+
+  margin-top: 10px;
+
+}
+
+
+
+
+
 }
